@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    cursor: pointer;
+    margin: 3px;
+}
+.btn:hover{
+    background-color: green;
+    color:white;
+    transition: 0.5 ease;
+    border: none;
+}
+.result{
+    font-size: 1.5rem;
+    margin: 3px;
+    color:green;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Survey Form</h1>
+        <form action="">
+            <label for="">First Name :</label>
+            <input type="text" required class="fn">
+            <label for="">Last Name :</label>
+            <input type="text" required class="ln">
+            <label for="">Date Of Birth :</label>
+            <input type="date" name="" id="" class="special dob"  required>
+            <label for="">country :</label>
+            <select name="" id="con" class="special" required>
+                <option value="India">India</option>
+                <option value="pakistan">pakistan</option>
+                <option value="china">china</option>
+                <option value="afghanistan">afghanistan</option>
+                <option value="England">England</option>
+                <option value="Nepal">Nepal</option>
+            </select>
+            <div class="gender">
+            <label for="">Gender :</label>
+            <label for="">male</label>
+            <input type="checkbox" name="" id="male">
+            <label for="">female</label>
+            <input type="checkbox" name="" id="female">
+            <label for="">Non Binary</label>
+            <input type="checkbox" name="" id="nonbinary">
+            </div>
+            <label for="">Profession :</label>
+            <input type="text" class='prof' required>
+            <label for="">Email :</label>
+            <input type="email" class="email" required>
+            <label for="">Mobile Number :</label>
+            <input type="number" class="num" name="" id="" required><br>
+            <div>
+            <button type="submit" class="submit">Submit</button>
+            <button type="reset" class="reset" onclick="reset()">Reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
